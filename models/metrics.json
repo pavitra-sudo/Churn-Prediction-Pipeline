@@ -1,0 +1,5 @@
+{
+    "accuracy": 0.7771,
+    "roc_auc": 0.8281,
+    "samples": 7043
+}
