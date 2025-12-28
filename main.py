@@ -1,5 +1,7 @@
 from database.query import fetch
+from pipeline.data_validation import validate_data
 
-hello = fetch("SELECT * FROM TelecoChurnData")
+rows = fetch("SELECT * FROM TelecoChurnData")
 
-print(hello)
+validate_data(rows)
+
