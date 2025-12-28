@@ -31,7 +31,7 @@ def train_and_save(X, y, feature_engineer):
     with open("models/metrics.json", "w") as f:
         json.dump(metrics, f, indent=4)
 
-    print("🤖 Phase 5 complete — Model trained & saved")
+    print("🤖Model trained & saved")
     print("📊 Metrics:", metrics)
 
     return metrics

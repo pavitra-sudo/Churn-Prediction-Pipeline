@@ -25,5 +25,5 @@ def clean_data(rows: list) -> list:
 
         cleaned.append(r)
 
-    print("🧹 Phase 3: Data cleaning completed")
+    print("🧹 Data cleaning completed")
     return cleaned

@@ -59,6 +59,6 @@ def validate_data(rows: list):
         raise ValueError("❌ Validation failed: PaymentMethod cardinality drift")
 
     # ✅ PASSED
-    print("✅ Phase 2 Validation passed ")
+    print("✅ Validation passed ")
     print(f"Rows validated: {len(rows)}")
     print(f"Churn classes: {churn_values}")
