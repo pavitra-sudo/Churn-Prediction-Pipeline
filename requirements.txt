@@ -1,0 +1,2 @@
+dotenv
+sqlite3
